@@ -3,22 +3,22 @@
     "path": "~/Raul/GitHub/jelclassification/man/count_jelcode.Rd",
     "project_path": "man/count_jelcode.Rd",
     "type": "r_doc",
-    "hash": "2082638722",
+    "hash": "2029180471",
     "contents": "",
     "dirty": false,
     "created": 1628827013344.0,
     "source_on_save": false,
     "relative_order": 7,
     "properties": {
-        "cursorPosition": "4,0",
-        "scrollLine": "0"
+        "cursorPosition": "40,0",
+        "scrollLine": "31"
     },
     "folds": "",
-    "lastKnownWriteTime": 1628827494,
+    "lastKnownWriteTime": 1628995860,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1628827494416,
+    "last_content_update": 1628995860474,
     "read_only": false,
     "read_only_alternatives": []
 }

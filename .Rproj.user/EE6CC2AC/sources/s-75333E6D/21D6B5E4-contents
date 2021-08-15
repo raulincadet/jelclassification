@@ -13,12 +13,8 @@ dominant_jelcode(x, method = "Ratio")
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{x}{ A string
-%%     ~~Describe \code{x} here~~
-}
-  \item{method}{The method selected for the comparison, to identify the dominant JEL code(s). There are two methods: Ratio, Freq. The default method is Ratio.
-%%     ~~Describe \code{method} here~~
-}
+  \item{x}{ A string}
+  \item{method}{The method selected for the comparison, to identify the dominant JEL code(s). There are two methods: Ratio, Freq. The default method is Ratio.}
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
@@ -52,3 +48,4 @@ The function returns a vector of the dominant(s) JEL code(s), account for the co
 % \concept{ ~cpt1 }
 % \concept{ ~cpt2 }
 % Use only one concept per line.
+}

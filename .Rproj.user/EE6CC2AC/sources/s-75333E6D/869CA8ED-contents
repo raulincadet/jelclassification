@@ -38,20 +38,7 @@ The function returns a tibble indicating the frequency of keywords, for each JEL
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
 
-## The function is currently defined as
-function (x)
-{
-    require(stringi)
-    y = as_tibble(data.frame(table(str_split(find_jelcode(x),
-        pattern = ","))))
-    colnames(y) = c("Code", "Freq")
-    y = inner_join(y, jel_keywords_count(), by = "Code")
-    y \%>\% select(Code, Theme, Freq)
-  }
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):

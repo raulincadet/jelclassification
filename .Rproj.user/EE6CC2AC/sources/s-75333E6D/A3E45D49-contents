@@ -16,7 +16,7 @@ find_jelcode<-function(x){ # x a string
 ######################
 count_jelcode<-function(x){ # x is a string
 require(stringi)
-#load(df_jel)
+load("df_JEL.rda")
  y=as_tibble(data.frame(table(str_split(find_jelcode(x),pattern=","))))
  colnames(y)=c("Code","Freq")
  y=inner_join(y,jel_keywords_count(),by="Code")
@@ -28,7 +28,8 @@ require(stringi)
 
 ######################
 ratio_jelcode<-function(x){ # x is a string
-  #load("df_jel.rda")
+  require(stringi)
+  load("df_JEL.rda")
   y=as_tibble(data.frame(table(str_split(find_jelcode(x),pattern=","))))
   colnames(y)=c("Code","Freq")
   y=inner_join(y,jel_keywords_count(),by="Code")
