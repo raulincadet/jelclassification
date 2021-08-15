@@ -3,7 +3,7 @@
     "path": "~/Raul/GitHub/jelclassification/R/jel_keywords_count.R",
     "project_path": "R/jel_keywords_count.R",
     "type": "r_source",
-    "hash": "3445981737",
+    "hash": "2019560322",
     "contents": "",
     "dirty": false,
     "created": 1628813409761.0,
@@ -11,15 +11,15 @@
     "relative_order": 1,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "4,13",
+        "cursorPosition": "4,14",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1628998989,
+    "lastKnownWriteTime": 1628999903,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1628998989756,
+    "last_content_update": 1628999903826,
     "read_only": false,
     "read_only_alternatives": []
 }
