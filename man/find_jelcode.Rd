@@ -16,33 +16,29 @@ find_jelcode(x)
 a string
 }
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the description above ~~
-}
+%}
 \value{
 The function returns a string of all JEL code associate to each keyword identified in a text.
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
 }
-\references{
+%\references{
 %% ~put references to the literature/web site here ~
-}
-\author{
+%}
+%\author{
 %%  ~~who you are~~
-}
-\note{
+%}
+%\note{
 %%  ~~further notes~~
-}
+%}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
+%\seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+%}
 \examples{
-text<-"I use the stochastic frontier methodology to estimate a cost and a profit frontier functions. The Fourier-flexible form is used in this paper because of its flexibility. Results show that, although foreign banks are more cost efficient than domestic banks, domestic banks are more profit efficient than foreign banks, in Haiti. The paper reveals also that, although treasury bills constitute an alternative source of profit for banks in Haiti, a growth of interest rate on treasury bills increases profit efficiency in current period whereas it decreases profit efficiency one period after this growth. The main implication of this paper is that foreign banks are not always more efficient than domestic banks in developing countries, and even in a country with low income level."
+text<-"I use the stochastic frontier methodology to estimate a cost and a bank profit. "
 find_jelcode(text)
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):

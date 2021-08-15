@@ -1,0 +1,24 @@
+{
+    "id": "88AB4188",
+    "path": "~/Raul/GitHub/jelclassification/tests/testthat.R",
+    "project_path": "tests/testthat.R",
+    "type": "r_source",
+    "hash": "426071045",
+    "contents": "",
+    "dirty": false,
+    "created": 1629011161922.0,
+    "source_on_save": false,
+    "relative_order": 12,
+    "properties": {
+        "cursorPosition": "3,31",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1629013643,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1629013643065,
+    "read_only": false,
+    "read_only_alternatives": []
+}

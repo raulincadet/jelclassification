@@ -3,22 +3,22 @@
     "path": "~/Raul/GitHub/jelclassification/man/dominant_jelcode.Rd",
     "project_path": "man/dominant_jelcode.Rd",
     "type": "r_doc",
-    "hash": "0",
+    "hash": "621527261",
     "contents": "",
     "dirty": false,
     "created": 1628828524301.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 7,
     "properties": {
-        "cursorPosition": "51,0",
-        "scrollLine": "30"
+        "cursorPosition": "20,1",
+        "scrollLine": "13"
     },
     "folds": "",
-    "lastKnownWriteTime": 1628995792,
+    "lastKnownWriteTime": 1629018448,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1628995792423,
+    "last_content_update": 1629018448641,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,0 +1,24 @@
+{
+    "id": "ADF6FE13",
+    "path": "~/Raul/GitHub/jelclassification/tests/testthat/test_jelclassification.R",
+    "project_path": "tests/testthat/test_jelclassification.R",
+    "type": "r_source",
+    "hash": "2554801419",
+    "contents": "",
+    "dirty": false,
+    "created": 1629011440371.0,
+    "source_on_save": false,
+    "relative_order": 13,
+    "properties": {
+        "cursorPosition": "32,73",
+        "scrollLine": "16"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1629016078,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1629016078303,
+    "read_only": false,
+    "read_only_alternatives": []
+}

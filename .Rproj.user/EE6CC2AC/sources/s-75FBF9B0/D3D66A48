@@ -3,23 +3,23 @@
     "path": "~/Raul/GitHub/jelclassification/man/find_jelcode.Rd",
     "project_path": "man/find_jelcode.Rd",
     "type": "r_doc",
-    "hash": "0",
+    "hash": "2597466537",
     "contents": "",
     "dirty": false,
     "created": 1628825699271.0,
     "source_on_save": false,
-    "relative_order": 8,
+    "relative_order": 10,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "56,0",
-        "scrollLine": "42"
+        "cursorPosition": "20,1",
+        "scrollLine": "9"
     },
     "folds": "",
-    "lastKnownWriteTime": 1628995860,
+    "lastKnownWriteTime": 1629018448,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1628995860519,
+    "last_content_update": 1629018448741,
     "read_only": false,
     "read_only_alternatives": []
 }

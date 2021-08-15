@@ -11,9 +11,9 @@ The function indicate the number of keywords related to each JEL code, used in t
 jel_keywords_count()
 }
 %- maybe also 'usage' for other objects documented here.
-\details{
+%\details{
 %%  ~~ If necessary, more details than the description above ~~
-}
+%}
 \value{
 The function returns a tibble with these columns:
 \itemize{
@@ -22,32 +22,23 @@ The function returns a tibble with these columns:
 \item{n: }{the number of keywords related to a JEL code}
 }
 }
-\references{
+%\references{
 %% ~put references to the literature/web site here ~
-}
-\author{
-%%  ~~who you are~~
-}
-\note{
+%}
+%5\author{%\%%  ~~who you are~~
+%}
+%\note{
 %%  ~~further notes~~
-}
+%}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
+%\seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
-}
-\examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+%}
+%\examples{
 
-## The function is currently defined as
-function ()
-{
-    df_jel \%>\% group_by(Code, Theme) \%>\% count() \%>\% na.omit()
-  }
-}
+%}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }

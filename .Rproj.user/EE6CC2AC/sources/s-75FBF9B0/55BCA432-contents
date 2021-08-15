@@ -1,53 +1,53 @@
-\name{jel_keywords_count}
-\alias{jel_keywords_count}
+\name{ratio_jelcode}
+\alias{ratio_jelcode}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Number of Keywords by JEL code
+Ratio of JEL classification codes
+%%  ~~function to do ... ~~
 }
 \description{
-The function indicate the number of keywords related to each JEL code, used in the package.
+A function to calculate, for each JEL code, the ratio of its frequency in a string on the number of keywords related to that JEL code.
 }
 \usage{
-jel_keywords_count()
+ratio_jelcode(x)
 }
 %- maybe also 'usage' for other objects documented here.
-\details{
-%%  ~~ If necessary, more details than the description above ~~
+\arguments{
+  \item{x}{
+  a string
+
 }
+}
+%\details{
+%%  ~~ If necessary, more details than the description above ~~
+%}
 \value{
-The function returns a tibble with these columns:
+The function returns a tibble indicating, for each JEL code:
 \itemize{
 \item{Code: }{the JEL codes}
 \item{Theme: }{the JEL general subject related to a JEL code}
-\item{n: }{the number of keywords related to a JEL code}
+\item{Freq: }{the frequency of JEL codes identified in the string considered}
+\item{Ratio: }{the ratio of each JEL code identified in the string considered.}
 }
+
 }
-\references{
+%\references{
 %% ~put references to the literature/web site here ~
-}
-\author{
+%}
+%\author{
 %%  ~~who you are~~
-}
-\note{
+%}
+%\note{
 %%  ~~further notes~~
-}
+%}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
+%\seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
-}
-\examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
+%}
+%\examples{
 
-## The function is currently defined as
-function ()
-{
-    df_jel \%>\% group_by(Code, Theme) \%>\% count() \%>\% na.omit()
-  }
-}
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
@@ -57,3 +57,4 @@ function ()
 % \concept{ ~cpt1 }
 % \concept{ ~cpt2 }
 % Use only one concept per line.
+%}

@@ -16,28 +16,28 @@ dominant_jelcode(x, method = "Ratio")
   \item{x}{ A string}
   \item{method}{The method selected for the comparison, to identify the dominant JEL code(s). There are two methods: Ratio, Freq. The default method is Ratio.}
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the description above ~~
-}
+%}
 \value{
 The function returns a vector of the dominant(s) JEL code(s), account for the code(s) with the maximum value for the chosen method.
 }
-\references{
+%\references{
 %% ~put references to the literature/web site here ~
-}
-\author{
+%}
+%\author{
 %%  ~~who you are~~
-}
-\note{
+%}
+%\note{
 %%  ~~further notes~~
-}
+%}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
+%\seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
-}
-\examples{
+%}
+%\examples{
 
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
@@ -48,4 +48,4 @@ The function returns a vector of the dominant(s) JEL code(s), account for the co
 % \concept{ ~cpt1 }
 % \concept{ ~cpt2 }
 % Use only one concept per line.
-}
+%}

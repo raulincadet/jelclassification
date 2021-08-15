@@ -3,23 +3,23 @@
     "path": "~/Raul/GitHub/jelclassification/man/ratio_jelcode.Rd",
     "project_path": "man/ratio_jelcode.Rd",
     "type": "r_doc",
-    "hash": "0",
+    "hash": "1944962864",
     "contents": "",
     "dirty": false,
     "created": 1628827639178.0,
     "source_on_save": false,
-    "relative_order": 6,
+    "relative_order": 8,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "60,0",
-        "scrollLine": "39"
+        "cursorPosition": "22,1",
+        "scrollLine": "12"
     },
     "folds": "",
-    "lastKnownWriteTime": 1628995860,
+    "lastKnownWriteTime": 1629018706,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1628995860443,
+    "last_content_update": 1629018706622,
     "read_only": false,
     "read_only_alternatives": []
 }

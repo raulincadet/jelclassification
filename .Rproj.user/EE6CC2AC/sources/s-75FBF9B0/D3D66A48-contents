@@ -1,53 +1,45 @@
-\name{ratio_jelcode}
-\alias{ratio_jelcode}
+\name{find_jelcode}
+\alias{find_jelcode}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Ratio of JEL classification codes
-%%  ~~function to do ... ~~
+Identify JEL code associated to a text
 }
 \description{
-A function to calculate, for each JEL code, the ratio of its frequency in a string on the number of keywords related to that JEL code.
+This function allows to find the JEL code associated to each keyword identified in a text
 }
 \usage{
-ratio_jelcode(x)
+find_jelcode(x)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
-  a string
-
+a string
 }
 }
-\details{
+%\details{
 %%  ~~ If necessary, more details than the description above ~~
-}
+%}
 \value{
-The function returns a tibble indicating, for each JEL code:
-\itemize{
-\item{Code: }{the JEL codes}
-\item{Theme: }{the JEL general subject related to a JEL code}
-\item{Freq: }{the frequency of JEL codes identified in the string considered}
-\item{Ratio: }{the ratio of each JEL code identified in the string considered.}
+The function returns a string of all JEL code associate to each keyword identified in a text.
 }
-
-}
-\references{
+%\references{
 %% ~put references to the literature/web site here ~
-}
-\author{
+%}
+%\author{
 %%  ~~who you are~~
-}
-\note{
+%}
+%\note{
 %%  ~~further notes~~
-}
+%}
 
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
-\seealso{
+%\seealso{
 %% ~~objects to See Also as \code{\link{help}}, ~~~
-}
+%}
 \examples{
-
+text<-"I use the stochastic frontier methodology to estimate a cost and a bank profit. "
+find_jelcode(text)
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory (show via RShowDoc("KEYWORDS")):
 % \keyword{ ~kwd1 }
