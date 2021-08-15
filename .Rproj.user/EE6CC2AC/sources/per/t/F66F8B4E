@@ -1,0 +1,32 @@
+{
+    "id": "F66F8B4E",
+    "path": null,
+    "project_path": null,
+    "type": "r_dataframe",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1628813601819.0,
+    "source_on_save": false,
+    "relative_order": 11,
+    "properties": {
+        "expression": "df_jel",
+        "caption": "df_jel",
+        "totalObservations": "570",
+        "displayedObservations": "570",
+        "variables": "4",
+        "cacheKey": "988F7E2F",
+        "object": "df_jel",
+        "environment": "",
+        "contentUrl": "grid_resource/gridviewer.html?env=&obj=df_jel&cache_key=988F7E2F&max_cols=50",
+        "preview": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 3418066522385707823,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1628813601819,
+    "read_only": false,
+    "read_only_alternatives": []
+}
