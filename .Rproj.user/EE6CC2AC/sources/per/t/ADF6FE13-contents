@@ -30,8 +30,16 @@ test_that("The result of ratio_jelcode is a tibble and the dimension is correct"
 })
 #> Test passed
 
-test_that("The resul{t of dominant_jelcode is a vector of class character",{
+test_that("The result of dominant_jelcode is a vector of class character",{
   expect_equal(is.vector(dominant_jelcode("I estimated a model to evaluate the hypothesis related to bank profit")),TRUE)
   expect_equal(is.character(dominant_jelcode("I estimated a model to evaluate the hypothesis related to bank profit")),TRUE)
+
+})
+
+#> Test passed
+
+test_that("The result of find_goals is a vector of class character",{
+  expect_equal(is.vector(find_goals("I estimated a model to evaluate the hypothesis related to bank profit. The study aims to analyse... ")) | is.null(find_goals("I estimated a model to evaluate the hypothesis related to bank profit. ")),TRUE)
+  expect_equal(is.character(find_goals("I estimated a model to evaluate the hypothesis related to bank profit. The study aims to analyse...")),TRUE)
 
 })

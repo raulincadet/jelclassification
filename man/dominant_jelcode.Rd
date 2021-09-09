@@ -14,7 +14,7 @@ dominant_jelcode(x, method = "Ratio")
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{ A string}
-  \item{method}{The method selected for the comparison, to identify the dominant JEL code(s). There are two methods: Ratio, Freq. The default method is Ratio.}
+  \item{method}{The method selected for the comparison, to identify the dominant JEL code(s). There are two methods: "Ratio", "Freq". The default method is "Freq".}
 }
 %\details{
 %%  ~~ If necessary, more details than the description above ~~

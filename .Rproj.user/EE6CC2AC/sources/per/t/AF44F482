@@ -1,24 +1,24 @@
 {
-    "id": "21D6B5E4",
+    "id": "AF44F482",
     "path": "~/Raul/GitHub/jelclassification/man/dominant_jelcode.Rd",
     "project_path": "man/dominant_jelcode.Rd",
     "type": "r_doc",
-    "hash": "621527261",
+    "hash": "1427701963",
     "contents": "",
     "dirty": false,
-    "created": 1628828524301.0,
+    "created": 1629163615081.0,
     "source_on_save": false,
-    "relative_order": 7,
+    "relative_order": 10,
     "properties": {
-        "cursorPosition": "20,1",
-        "scrollLine": "13"
+        "cursorPosition": "16,163",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1629018448,
+    "lastKnownWriteTime": 1629164147,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1629018448641,
+    "last_content_update": 1629164147756,
     "read_only": false,
     "read_only_alternatives": []
 }

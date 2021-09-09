@@ -22,7 +22,8 @@ Imports:
     tibble (>= 3.1.2),
     dplyr (>= 1.0.5),
     stringi (>= 1.6.2),
-    stringr
+    stringr,
+    tidytext
 Remotes: 
     tidyverse/dplyr,
     tidyverse/tibble
